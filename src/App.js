@@ -1,5 +1,9 @@
+import RoutesApp from "./routes"
+
 export default function App() {
   return (
-    <h1>Olá</h1>
+    <div>
+      <RoutesApp/>
+    </div>
   )
 }
