@@ -1,0 +1,18 @@
+footer {
+    background-color: rgb(255, 255, 35);
+    color: green;
+    padding: 15px;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer a {
+    color: green;
+    text-decoration: none;
+    transition: all 0.8s;
+}
+
+footer a:hover {
+    color: rgb(0, 51, 0);
+}
