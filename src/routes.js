@@ -5,6 +5,7 @@ import Menu from './components/menu'
 import Home from './pages/home'
 import Footer from './components/footer'
 import Historia from './pages/historia'
+import Titulos from './pages/titulos'
 
 export default function RoutesApp() {
     return (
@@ -14,6 +15,7 @@ export default function RoutesApp() {
             <Routes>
                 <Route path='/' element={<Home/>}/>
                 <Route path='/historia' element={<Historia/>}/>
+                <Route path='/titulos' element={<Titulos/>}/>
             </Routes>
             <Footer/>
         </BrowserRouter>
