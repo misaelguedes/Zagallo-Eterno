@@ -13,3 +13,43 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+section {
+  background-color: rgba(255, 255, 255, 0.836);
+  max-width: 1200px;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+section h1 {
+  color: green;
+  text-align: center;
+  font-size: 1.7em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+section h2 {
+  text-align: center;
+  font-size: 1.4em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+section p {
+  line-height: 1.5em;
+  text-align: justify;
+  text-indent: 30px;
+  margin-bottom: 15px;
+}
+
+ul {
+  padding: 30px;
+}
