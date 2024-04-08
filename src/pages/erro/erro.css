@@ -1,0 +1,26 @@
+.erro {
+    color: white;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 10%;
+}
+
+.h1-erro {
+    font-size: 10em;
+}
+
+.span-erro {
+    font-size: 5em;
+}
+
+@media screen and (max-width: 768px) {
+    .h1-erro {
+        font-size: 5em;
+    }
+
+    .span-erro {
+        font-size: 2em;
+    }
+}
