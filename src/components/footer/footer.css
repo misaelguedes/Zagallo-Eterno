@@ -16,3 +16,9 @@ footer a {
 footer a:hover {
     color: rgb(0, 51, 0);
 }
+
+@media screen and (max-width: 768px) {
+    footer {
+        font-size: 1.2em;
+    }
+}
