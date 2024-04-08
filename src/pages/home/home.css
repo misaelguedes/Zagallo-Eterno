@@ -20,3 +20,17 @@
 .home span {
     font-weight: bolder;
 }
+
+@media screen and (max-width: 768px) {
+    .home {
+        padding: 25px;
+    }
+
+    .home h1 {
+        font-size: 2.2em;
+    }
+
+    .home p {
+        font-size: 1.1em;
+    }
+}
