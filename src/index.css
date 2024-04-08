@@ -57,3 +57,13 @@ section p {
 ul {
   padding: 30px;
 }
+
+@media screen and (max-width: 768px) {
+  section h1 {
+    font-size: 1.5em;
+  }
+
+  section h2 {
+    font-size: 1.3em;
+  }
+}
