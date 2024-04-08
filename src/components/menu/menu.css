@@ -1,7 +1,7 @@
 menu {
     background-color: rgb(255, 255, 35);
-    padding: 5px;
-    height: 80px;
+    padding: 20px;
+    height: auto;
 }
 
 .itens {
@@ -30,5 +30,31 @@ menu {
     }
     to {
         transform: scale(1.1);
+    }
+}
+
+.burguer span {
+    color: green;
+    font-size: 2em;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    menu {
+        height: auto;
+        padding: 5px;
+    }
+   
+    .burguer span {
+        display: block;
+    }
+
+    .itens a {
+        display: block;
+        font-size: 20px;
+        text-align: center;
+        border-bottom: 1px solid green;
     }
 }
